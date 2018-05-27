@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Vistas.Crear_mascota">
+
+       <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_mascota"
+           android:textAlignment="center"
+           android:textSize="18sp"
+           android:textStyle="bold" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+           <android.support.design.widget.TextInputEditText
+               android:id="@+id/txtApodo"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:hint="@string/apodo" />
+
+       </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtEdad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/edad"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/animal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spn_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/crear" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/limpiar" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
