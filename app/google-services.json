@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "659601916127",
+    "firebase_url": "https://pet-s-world-3954f.firebaseio.com",
+    "project_id": "pet-s-world-3954f",
+    "storage_bucket": "pet-s-world-3954f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659601916127:android:7520ef51353d4f0f",
+        "android_client_info": {
+          "package_name": "com.example.bara.petsworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659601916127-nss5fjoj5udnn70ua1digfttaku4lbce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bara.petsworld",
+            "certificate_hash": "985e6bed80efe20528d13b0e96921488bc353145"
+          }
+        },
+        {
+          "client_id": "659601916127-smfdfvljcgfbhf6kqqpb2l3g5svo67tp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "659601916127-smfdfvljcgfbhf6kqqpb2l3g5svo67tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3a5_MvJk2uW5A9g06KYDKw8TM0QzCtDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659601916127-smfdfvljcgfbhf6kqqpb2l3g5svo67tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
