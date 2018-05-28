@@ -17,5 +17,15 @@
     <string name="modificar">Modificar</string>
     <string name="eliminar">Eliminar</string>
     <string name="guardado_exitoso">Guardado exitosamente!</string>
-
+    <string name="genero">Genero</string>
+    <string name="loro">Loro</string>
+    <string name="perro">Perro</string>
+    <string name="gato">Gato</string>
+    <string name="conejo">Conejo</string>
+    <string-array name="animales">
+        <item>@string/loro</item>
+        <item>@string/perro</item>
+        <item>@string/gato</item>
+        <item>@string/conejo</item>
+    </string-array>
 </resources>
