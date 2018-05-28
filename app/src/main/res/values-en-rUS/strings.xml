@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">petsworld</string>
+    <string name="action_settings">Opciones</string>
+    <string name="apodo">Nickname</string>
+    <string name="edad">Age</string>
+    <string name="animal">Animal</string>
+    <string name="macho">Male</string>
+    <string name="hembra">Female</string>
+    <string name="crear_mascota">Create Pet</string>
+    <string name="crear">Create</string>
+    <string name="limpiar">Clear</string>
+    <string name="nuevo">New</string>
+    <string name="modificar">Modify</string>
+    <string name="eliminar">Remove</string>
+    <string name="guardado_exitoso">Successfully saved!</string>
+    <string name="genero">Gender</string>
+    <string name="loro">Parrot</string>
+    <string name="perro">Dog</string>
+    <string name="gato">Cat</string>
+    <string name="conejo">Rabbit</string>
+</resources>

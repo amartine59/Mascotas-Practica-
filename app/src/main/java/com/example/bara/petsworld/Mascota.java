@@ -65,5 +65,13 @@ public class Mascota {
         Sexo = sexo;
     }
 
+    public void guardar(){
+        Datos.guardar_mascota(this);
+    }
+
+    public void eliminar(){
+        Datos.eliminar_mascota(this);
+    }
+
 
 }
